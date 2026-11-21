@@ -1,0 +1,26 @@
+{
+  "experiment": "loan_approval_case",
+  "model": "gemini-3.5-flash-lite",
+  "temperature": 0.2,
+  "seed": 42,
+  "solo_verdict": "APPROVE",
+  "round_1": {
+    "Agent_A_Cautious": "REJECT",
+    "Agent_B_Neutral": "APPROVE",
+    "Agent_C_Lenient": "APPROVE"
+  },
+  "round_2": {
+    "Agent_A_Cautious": "REJECT",
+    "Agent_B_Neutral": "APPROVE",
+    "Agent_C_Lenient": "APPROVE"
+  },
+  "summary": {
+    "solo_verdict": "APPROVE",
+    "committee_decision": "APPROVE",
+    "approve_votes": 2,
+    "reject_votes": 1,
+    "consensus_rate_pct": 66.67,
+    "confidence_shifts": 0,
+    "outcome": "Matched Solo Decision"
+  }
+}

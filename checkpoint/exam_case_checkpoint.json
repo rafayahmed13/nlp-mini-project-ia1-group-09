@@ -1,0 +1,25 @@
+{
+  "experiment": "exam_review_case",
+  "model": "gemini-3.5-flash",
+  "temperature": 0.2,
+  "seed": 42,
+  "solo_score": 2.0,
+  "round_1": {
+    "Agent_A_Cautious": 1.0,
+    "Agent_B_Neutral": 3.0,
+    "Agent_C_Lenient": 6.0
+  },
+  "round_2": {
+    "Agent_A_Cautious": 1.0,
+    "Agent_B_Neutral": 1.0,
+    "Agent_C_Lenient": 5.0
+  },
+  "summary": {
+    "solo_score": 2.0,
+    "committee_average_score": 2.33,
+    "consensus_rate_exact_match_pct": 66.67,
+    "confidence_shifts": 2,
+    "shift_rate_pct": 66.67,
+    "outcome": "Differed from Solo Decision (Deviation observed)"
+  }
+}
