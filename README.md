@@ -1,1 +1,0 @@
-# nlp-mini-project-ia1-group-10
