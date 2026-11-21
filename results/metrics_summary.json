@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "dataset": "TIGER-Lab/MMLU-Pro (12,032 questions, 10 options, 20-20-60 split)",
+  "benchmark_metrics": [
+    {
+      "Metric": "Accuracy",
+      "Solo_Baseline": 81.2,
+      "UMV": 85.4,
+      "Proposed_HDCA": 92.5,
+      "Gain_over_UMV_pp": 7.1
+    },
+    {
+      "Metric": "Precision",
+      "Solo_Baseline": 79.5,
+      "UMV": 82.1,
+      "Proposed_HDCA": 91.8,
+      "Gain_over_UMV_pp": 9.7
+    },
+    {
+      "Metric": "Recall",
+      "Solo_Baseline": 82.1,
+      "UMV": 80.5,
+      "Proposed_HDCA": 90.4,
+      "Gain_over_UMV_pp": 9.9
+    },
+    {
+      "Metric": "F1-Score",
+      "Solo_Baseline": 80.8,
+      "UMV": 81.3,
+      "Proposed_HDCA": 91.1,
+      "Gain_over_UMV_pp": 9.8
+    }
+  ],
+  "case_studies": {
+    "loan_approval": {
+      "solo_verdict": "APPROVE",
+      "committee_decision": "APPROVE",
+      "approve_votes": 2,
+      "reject_votes": 1,
+      "consensus_rate_pct": 66.67,
+      "confidence_shifts": 0,
+      "outcome": "Matched Solo Decision"
+    },
+    "exam_grading": {
+      "solo_score": 2.0,
+      "committee_average_score": 2.33,
+      "consensus_rate_exact_match_pct": 66.67,
+      "confidence_shifts": 2,
+      "shift_rate_pct": 66.67,
+      "outcome": "Differed from Solo Decision (Deviation observed)"
+    }
+  }
+}
