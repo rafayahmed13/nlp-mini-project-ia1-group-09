@@ -1,0 +1,5 @@
+[SEED=42] Saved /working_dir/c_cd9e38b69919ef4e/artifacts/file_generation/ttl=63d/intermediate/github_repo/results/metrics_comparison.csv and /working_dir/c_cd9e38b69919ef4e/artifacts/file_generation/ttl=63d/intermediate/github_repo/results/metrics_summary.json
+  Accuracy   | Solo:  81.2% | UMV:  85.4% | HDCA:  92.5% (+7.1 pp)
+  Precision  | Solo:  79.5% | UMV:  82.1% | HDCA:  91.8% (+9.7 pp)
+  Recall     | Solo:  82.1% | UMV:  80.5% | HDCA:  90.4% (+9.9 pp)
+  F1-Score   | Solo:  80.8% | UMV:  81.3% | HDCA:  91.1% (+9.8 pp)
